@@ -1,0 +1,26 @@
+objDatos = NEWOBJECT(" ", "class libraries\capadatos.vcx")
+obj = NEWOBJECT(" ", "class libraries\entidades.vcx")
+
+//persona
+
+obj.apellido = "pri"
+obj.nombre = "mero"
+obj.direccion = "dir1"
+obj.email = "primero@email.com"
+obj.telefono = "45678913"
+objDatos.new(obj)
+
+obj.nombre = "modificado"
+obj.apellido = "primero"
+obj.id = 1
+objDatos.modify(obj)
+
+//producto
+
+obj.descripcion = "primera"
+obj.fechaarribo = DATE()
+obj.fechavencimiento = 1
+obj.precio = 1.11
+obj.stock = 1
+obj.stockentero = .T.
+obj.unidad = "unitaria"
