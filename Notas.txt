@@ -1,0 +1,3 @@
+-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta respectivamente
+
+-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una venta con NEWOBJECT)
