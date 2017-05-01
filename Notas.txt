@@ -3,3 +3,5 @@
 -Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una venta con NEWOBJECT)
 
 -Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
+
+-Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
