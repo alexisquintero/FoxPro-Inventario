@@ -1,13 +1,33 @@
--Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta respectivamente
+TODO:
 
--Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
+	-Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
 
--Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
+	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
 
--Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
+	-Agregarle una contraseña al empleado para el login
 
--Agregarle una contraseña al empleado para el login
+	-El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), cambiar el nombre del botón guardar y hacer visible 	el botón eliminar si se envía 1 parámtero
 
--El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), y cambiar el nombre del botón guardar si se inicializa con un parámetro
+	-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
 
--Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
+	-Cambiar fecha_vencimiento para que sea date en lugar de int
+
+HECHO:
+
+	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 		venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
+
+SUERENCIAS:
+
+	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 		respectivamente
+
+OTROS:
+
+	-Los form abm tiene la propiedad modo, que sirve para saber si se llama a nuevo o modificar con el botón guardar/modificar.
+
+	-Para crear un form y pasarle parámetros:
+		SET CLASSLIB TO "class libraries\capapresentacion.vcx" ALIAS PRESENTACION
+		formCliente = CREATEOBJECT("clienteabmpresentacion", 20)
+		formCLiente.Show()
+
+
+
