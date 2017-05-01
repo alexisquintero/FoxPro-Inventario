@@ -7,3 +7,7 @@
 -Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
 
 -Agregarle una contraseña al empleado para el login
+
+-El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), y cambiar el nombre del botón guardar si se inicializa con un parámetro
+
+-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
