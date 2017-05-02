@@ -28,6 +28,8 @@ OTROS:
 
 	-Al crear un objeto que necesita parámetros, si no se quieren pasar parámetros igualmente escribirlos como .NULL.
 
+	-La contraseña por default es  "primer letra del nombre + apellido" y en el menú hay un botón para cambiarla.
+
 
 
 
