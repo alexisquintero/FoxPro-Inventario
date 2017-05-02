@@ -6,19 +6,21 @@ TODO:
 
 	-Agregarle una contraseña al empleado para el login
 
-	-El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), cambiar el nombre del botón guardar y hacer visible 	el botón eliminar si se envía 1 parámtero
-
-	-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
-
-	-Cambiar fecha_vencimiento para que sea date en lugar de int
+	-Agregar el botón "AGREGAR PRODUCTO" a la grilla de proveedor
 
 HECHO:
 
-	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 		venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
+	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 			venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
 
-SUERENCIAS:
+	-Cambiar fecha_vencimiento para que sea date en lugar de int
 
-	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 		respectivamente
+	-El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), cambiar el nombre del botón guardar y hacer visible 		el botón eliminar si se envía 1 parámtero
+
+	-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
+
+SUGERENCIAS:
+
+	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 			respectivamente
 
 OTROS:
 
