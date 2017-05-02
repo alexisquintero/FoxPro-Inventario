@@ -24,3 +24,10 @@ obj.precio = 1.11
 obj.stock = 1
 obj.stockentero = .T.
 obj.unidad = "unitaria"
+
+//form
+
+producto = NEWOBJECT("producto", "class libraries\entidades.vcx")
+SET CLASSLIB TO "class libraries\capapresentacion.vcx" ALIAS PRESENTACION
+formProducto = CREATEOBJECT("productoabmpresentacion", producto)
+formProducto.Show()

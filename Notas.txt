@@ -24,10 +24,8 @@ OTROS:
 
 	-Los form abm tiene la propiedad modo, que sirve para saber si se llama a nuevo o modificar con el botón guardar/modificar.
 
-	-Para crear un form y pasarle parámetros:
-		SET CLASSLIB TO "class libraries\capapresentacion.vcx" ALIAS PRESENTACION
-		formCliente = CREATEOBJECT("clienteabmpresentacion", 20)
-		formCLiente.Show()
+	-Al crear un objeto que necesita parámetros, si no se quieren pasar parámetros igualmente escribirlos como .NULL.
+
 
 
 
