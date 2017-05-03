@@ -1,9 +1,9 @@
 TODO:
 	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
 
-	-Agregarle una contraseña al empleado para el login
-
 	-Agregar el botón "AGREGAR PRODUCTO" a la grilla de proveedor
+
+	-Chekear si hay una columna seleccionada en los form grilla cuando se apreta el botón MODIFICAR
 
 HECHO:
 
@@ -16,6 +16,8 @@ HECHO:
 	-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
 
 	-Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
+
+	-Agregarle una contraseña al empleado para el login
 
 SUGERENCIAS:
 
