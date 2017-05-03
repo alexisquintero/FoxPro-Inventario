@@ -1,7 +1,4 @@
 TODO:
-
-	-Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
-
 	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
 
 	-Agregarle una contraseña al empleado para el login
@@ -17,6 +14,8 @@ HECHO:
 	-El form ABM acepta un objeto de parámetro para inicializar los valores (cuando se modifica o elimina), cambiar el nombre del botón guardar y hacer visible 		el botón eliminar si se envía 1 parámtero
 
 	-Controlar de los txt del abm que no estén vacíos si son visibles (en el form padre, abm)
+
+	-Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
 
 SUGERENCIAS:
 
