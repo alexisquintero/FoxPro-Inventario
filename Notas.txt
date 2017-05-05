@@ -5,6 +5,10 @@ TODO:
 
 	-Chekear si hay una columna seleccionada en los form grilla cuando se apreta el botón MODIFICAR
 
+	-Agregar USUARIO al diagrama de datos en EMPLEADO
+
+	-Controlar que no haya 2 empleados con el mismo usuario
+
 HECHO:
 
 	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 			venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
@@ -22,6 +26,8 @@ HECHO:
 SUGERENCIAS:
 
 	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 			respectivamente
+
+	-Agregar filtro a la grilla
 
 OTROS:
 
