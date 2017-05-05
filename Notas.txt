@@ -1,13 +1,15 @@
 TODO:
 	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo, al borrar un proveedor también borrar los productos de ese proveedor
 
-	-Agregar el botón "AGREGAR PRODUCTO" a la grilla de proveedor
+	-Agregar el botón "AGREGAR PRODUCTO" a la grilla o ABM de proveedor
 
 	-Chekear si hay una columna seleccionada en los form grilla cuando se apreta el botón MODIFICAR
 
 	-Agregar USUARIO al diagrama de datos en EMPLEADO
 
 	-Controlar que no haya 2 empleados con el mismo usuario
+
+	-Agregar productos solo desde proveedores, desde la grilla solo modificarlos 
 
 HECHO:
 
