@@ -3,13 +3,11 @@ TODO:
 
 	-Agregar el botón "AGREGAR PRODUCTO" a la grilla o ABM de proveedor
 
-	-Chekear si hay una columna seleccionada en los form grilla cuando se apreta el botón MODIFICAR
-
-	-Agregar USUARIO al diagrama de datos en EMPLEADO
-
 	-Controlar que no haya 2 empleados con el mismo usuario
 
-	-Agregar productos solo desde proveedores, desde la grilla solo modificarlos 
+	-Agregar productos solo desde proveedores o desde venta, dependiendo del tipo, desde la grilla solo modificarlos 
+
+	-Agregar el botón CAMBIAR CONTRASEÑA al MENU
 
 HECHO:
 
@@ -24,6 +22,8 @@ HECHO:
 	-Arreglar Diagrama de Clases, las flechas que sale de Proveedor están al revez (la de herencia está bien)
 
 	-Agregarle una contraseña al empleado para el login
+
+	-Agregar USUARIO al diagrama de datos en EMPLEADO
 
 SUGERENCIAS:
 
