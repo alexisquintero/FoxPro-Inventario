@@ -15,6 +15,8 @@ TODO:
 
 	-Controlar que hay un solo PRODUCTOPROVEEDOR con id_producto y id_proveedor
 
+	-Controlar que la contraseña no pueda ser igual al usuario
+
 HECHO:
 
 	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 			venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
