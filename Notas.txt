@@ -5,9 +5,7 @@ TODO:
 		-Producto -> producto-proveedor
 		-Producto -> proveedor -> producto
 
-	-Controlar que no haya 2 empleados con el mismo usuario
-
-	-Agregar productos solo desde proveedores o desde venta, dependiendo del tipo, desde la grilla solo modificarlos 
+	-Controlar que no haya 2 empleados con el mismo usuario	
 
 	-Controlar que fecha venciminento >= fecha arribo
 
@@ -16,6 +14,8 @@ TODO:
 	-Controlar que hay un solo PRODUCTOPROVEEDOR con id_producto y id_proveedor
 
 	-Controlar que la contraseña no pueda ser igual al usuario
+
+	-La venta tiene que tener por lo menos una línea
 
 HECHO:
 
@@ -36,6 +36,8 @@ HECHO:
 	-Agregar el botón "AGREGAR PRODUCTO" a la grilla o ABM de proveedor
 
 	-Agregar el botón CAMBIAR CONTRASEÑA al MENU
+
+	-Agregar productos solo desde proveedores o desde venta, dependiendo del tipo, desde la grilla solo modificarlos 
 
 SUGERENCIAS:
 
