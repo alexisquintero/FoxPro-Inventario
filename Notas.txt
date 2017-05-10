@@ -47,6 +47,8 @@ SUGERENCIAS:
 
 	-Agregar filtro a la grilla
 
+	-Si en la venta se agrega de nuevo un producto sumarlo al ya existente si lo permite el stock
+
 OTROS:
 
 	-Los form abm tiene la propiedad modo, que sirve para saber si se llama a nuevo o modificar con el botón guardar/modificar.
