@@ -7,19 +7,9 @@ TODO:
 
 	-Controlar que no haya 2 empleados con el mismo usuario	
 
-	-Controlar que fecha venciminento >= fecha arribo
-
 	-¿Qué pasa si un nombre tiene más de 50 dígitos?
 
-	-Controlar que hay un solo PRODUCTOPROVEEDOR con id_producto y id_proveedor
-
 	-Controlar que la contraseña no pueda ser igual al usuario
-
-	-La venta tiene que tener por lo menos una línea
-
-	-Controlar que en la venta no se repita el producto
-
-	-Al guardar una venta actualizar el stock
 
 HECHO:
 
@@ -43,6 +33,16 @@ HECHO:
 
 	-Agregar productos solo desde proveedores o desde venta, dependiendo del tipo, desde la grilla solo modificarlos 
 
+	-Controlar que en la venta no se repita el producto
+
+	-Al guardar una venta actualizar el stock
+
+	-La venta tiene que tener por lo menos una línea
+
+	-En el ABM producto agregar un productoProveedor, no al revez
+
+	-Controlar que fecha venciminento >= fecha arribo
+
 SUGERENCIAS:
 
 	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 			respectivamente
@@ -61,6 +61,7 @@ OTROS:
 
 	-La contraseña por default es  "primer letra del nombre + apellido" y en el menú hay un botón para cambiarla.
 
+	-ProveedorProductoGrilla tiene todos los productos de un Proveedor
 
 
 
