@@ -1,13 +1,5 @@
 TODO:
-	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo
-		-Proveedor -> productos-proveedor y contactos
-		-Venta -> lineas
-		-Producto -> producto-proveedor
-		-Producto -> proveedor -> producto
-
 	-Controlar que no haya 2 empleados con el mismo usuario	
-
-	-¿Qué pasa si un nombre tiene más de 50 dígitos?
 
 	-Controlar que la contraseña no pueda ser igual al usuario
 
@@ -42,6 +34,9 @@ HECHO:
 	-En el ABM producto agregar un productoProveedor, no al revez
 
 	-Controlar que fecha venciminento >= fecha arribo
+
+	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo
+		-Proveedor -> productos-proveedor y contactos
 
 SUGERENCIAS:
 
