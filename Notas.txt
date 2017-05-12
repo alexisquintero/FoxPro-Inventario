@@ -3,6 +3,8 @@ TODO:
 
 	-Controlar que la contraseña no pueda ser igual al usuario
 
+	-Modificar el id_productoproveedor al modificar el producto, en este momento está comentado ya que toma un valor el id y no se puede completar el 	UPDATE
+
 HECHO:
 
 	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 			venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
