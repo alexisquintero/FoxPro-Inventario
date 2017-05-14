@@ -1,9 +1,6 @@
-TODO:
-	-Controlar que no haya 2 empleados con el mismo usuario	
-
-	-Controlar que la contraseña no pueda ser igual al usuario
-
-	-Modificar el id_productoproveedor al modificar el producto, en este momento está comentado ya que toma un valor el id y no se puede completar el 	UPDATE
+TODO:	
+	
+	-Controlar que que la venta no sea por una cantidad mayor al stock
 
 HECHO:
 
@@ -40,15 +37,17 @@ HECHO:
 	-Controlar que al borrar una clase también haya que borrar otras, por ejemplo
 		-Proveedor -> productos-proveedor y contactos
 
+	-Modificar el id_productoproveedor al modificar el producto, en este momento está comentado ya que toma un valor el id y no se puede completar el 			UPDATE
+
+	-Controlar que no haya 2 empleados con el mismo usuario
+
+	-En los ABM despues de guardar esconder el botón de guardar y cambiar el caption de cancelar a salir
+
+	-Controlar que la demora maxima sea >= a demora promedio 
+
 SUGERENCIAS:
 
-	-Capaz que sea mejor que getOne() y getAll() de ProductoProveedor y VentaProductos devuelvan 1 solo item y todos los items de un Proveedor/Venta 			respectivamente
-
 	-Agregar filtro a la grilla
-
-	-Si en la venta se agrega de nuevo un producto sumarlo al ya existente si lo permite el stock
-
-	-Productos iguales con distinta fecha de vencimiento ???
 
 OTROS:
 
