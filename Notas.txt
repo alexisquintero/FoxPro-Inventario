@@ -1,6 +1,6 @@
 TODO:	
-	
-	-Controlar que que la venta no sea por una cantidad mayor al stock
+
+	-En los reportes agregar cantidad de registros
 
 HECHO:
 
@@ -44,6 +44,14 @@ HECHO:
 	-En los ABM despues de guardar esconder el botón de guardar y cambiar el caption de cancelar a salir
 
 	-Controlar que la demora maxima sea >= a demora promedio 
+
+	-Desactivar textBoxs despues de guardas, con el método posGuardar
+
+	-Agregar control de fechas en capa negocio
+
+	-Controlar que que la venta no sea por una cantidad mayor al stock
+
+	-Agregar la unidad en el list de venta en form venta
 
 SUGERENCIAS:
 
