@@ -2,7 +2,7 @@ TODO:
 
 	-En los reportes agregar cantidad de registros
 
-	-Controlar el stock y que aparezca la unidad en la venta
+	-En el reporte inventario agregar un total activos (sumatoria de todos los activos)
 
 HECHO:
 
@@ -54,6 +54,8 @@ HECHO:
 	-Controlar que que la venta no sea por una cantidad mayor al stock
 
 	-Agregar la unidad en el list de venta en form venta
+
+	-Controlar el stock y que aparezca la unidad en la venta
 
 SUGERENCIAS:
 

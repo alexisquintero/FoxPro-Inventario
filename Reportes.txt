@@ -1,0 +1,42 @@
+Empleados (ventas realizadas)
+
+	Nombre+apellido
+		año
+			mes
+				dia
+					id_venta		cliente nombre+apellido 	monto
+				total en esa fecha
+			total en ese mes
+		total en ese año
+
+	empleado INNER JOIN venta INNER JOIN cliente INNER JOIN venta-producto INNER JOIN producto
+	nombre+apellido	  fecha	                nombre+apellido        id_producto		      precio
+
+Inventario
+
+	descripcion producto (si stock > 0)		stock	fecha_vencimiento
+
+	producto (SOLAMENTE)
+
+Ventas
+
+	año
+		mes
+			dia
+				cantidad de ventas
+			monto dia		ganancia bruta dia
+		monto mes		ganancia bruta mes
+	monto año		ganancia bruta año
+
+	venta INNER JOIN venta-producto INNER JOIN producto INNER JOIN producto-proveedor
+	fecha	              id_producto, cantidad	      precio		        precio
+
+Clientes
+
+	nombre+apellido	cantidad de ventas
+		id_venta		monto
+	total monto cliente	
+
+	cliente INNER JOIN venta INNER JOIN venta-producto INNER JOIN producto
+	nombre+apellido       id_venta	           id_producto		   costo
+		
