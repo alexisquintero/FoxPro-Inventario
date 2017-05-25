@@ -1,7 +1,5 @@
 TODO:	
 
-	-En los reportes agregar cantidad de registros
-
 HECHO:
 
 	-Las entidades que tiene otras entidades como propiedades tiene que ser inicializadas con una instancia de dicha entidad (Ej: inicializar el empleado de una 			venta con NEWOBJECT) (Las colecciones van a ser cursores, no hace falta inicializarlas)
@@ -56,6 +54,8 @@ HECHO:
 	-Controlar el stock y que aparezca la unidad en la venta
 
 	-En el reporte inventario agregar un total activos (sumatoria de todos los activos)
+
+	-En los reportes agregar cantidad de registros
 
 SUGERENCIAS:
 
