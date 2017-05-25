@@ -1,0 +1,4 @@
+SET DEFAULT TO "I:\FoxPro"
+
+formMenu = NEWOBJECT("menu", "class libraries\capapresentacion.vcx")
+formMenu.show(1)
